@@ -14,5 +14,7 @@ const groupBy = (arr, key='role') => arr.reduce((result, x) => {
     return result;
 }, {});
 
+const getByRoles = (arr, ...keys) => arr.filter(x => keys.includes(x.role));
 
-console.log(groupBy(getHeroes()));
+
+console.log(getByRoles(getHeroes(), 'Support', 'Defense'));

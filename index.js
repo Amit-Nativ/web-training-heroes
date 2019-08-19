@@ -16,5 +16,4 @@ const groupBy = (arr, key='role') => arr.reduce((result, x) => {
 
 const getByRoles = (arr, ...keys) => arr.filter(x => keys.includes(x.role));
 
-
-console.log(getByRoles(getHeroes(), 'Support', 'Defense'));
+const makeHeroesNice = (arr) => arr.map(x => x.sayHello = () => (`Hi! my name is ${x.name}, nice to meet you!`));

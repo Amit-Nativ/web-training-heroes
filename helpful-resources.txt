@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/14446511/most-efficient-method-to-groupby-on-an-array-of-objects
+https://gist.github.com/robmathers/1830ce09695f759bf2c4df15c29dd22d
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://love2dev.com/blog/javascript-includes/

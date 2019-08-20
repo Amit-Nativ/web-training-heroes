@@ -1,8 +1,4 @@
-const heroes = require('./Exercise 3/ow');
-
-const names = [...heroes.names];
-const roles = [...heroes.roles];
-const hp = [...heroes.hp];
+const {names, roles, hp} = require('./Exercise 3/ow');
 
 const getHeroes = () => names.map((x,i) => ({name: x, role: roles[i]}));
 
